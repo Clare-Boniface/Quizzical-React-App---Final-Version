@@ -1,0 +1,169 @@
+/* --- Styling for all Components --- */
+
+* {
+   box-sizing:border-box;
+}
+
+h1,h2,p,body {
+   margin:0;
+   padding:0;
+}
+
+body {
+   background-color:#f5f7fb;
+   color:#293264;
+   font-family:"Inter",sans-serif;
+   position:relative;
+   text-align:center;
+   max-width:1000px;
+   min-width:370px;
+   margin:0 auto;
+   min-height:100vh;
+}
+
+.button {
+   font-family:Inter,sans-serif;
+   border-radius:15px;
+   background-color:#4d5b9e;
+   color:#f5f7fb;
+   border:none;
+   margin-top:1.25em;
+}
+
+.flex {
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+}
+
+/* --- Intro Component --- */
+
+.body-intro {
+   min-height:100vh;
+}
+
+.title {
+   font-family:"Karla",sans-serif;
+   font-size:1.9rem;
+   font-weight:700;
+   margin-bottom:0.2em;
+}
+
+.subtitle {
+   font-size:1rem;
+   font-weight:400;
+   margin-bottom:1.8em;
+}
+
+.start-btn {
+   width:193px;
+   height:52px;
+   font-size:1rem;
+   font-weight:500;
+   margin-top:2em;
+}
+
+select {
+   padding:0.5em;
+   font-family:Inter;
+}
+
+svg {
+   position:absolute;
+   z-index:-1;
+}
+
+.lemon-svg {
+   top:0;
+   right:0;
+}
+
+.babyblue-svg {
+   bottom:0;
+   left:0;
+}
+
+/* --- Questions Component --- */
+
+.question {
+   font-family:"Karla",sans-serif;
+   font-weight:700;
+   padding:1em 0 0 1em;
+   margin-top:1em;
+   text-align:left;
+}
+
+.answer {
+   border:0.8px solid #4d5b9e;
+   border-radius:7.9px;
+   font-size:0.64rem;
+   font-weight:500;
+   padding:0.5em;
+   width:20%;
+   margin-bottom:1.4em;
+}
+
+.answers {
+   display:flex;
+   flex-direction:row;
+   justify-content:start;
+   gap:1.5em;
+   padding:1em 0 0 1em;
+}
+
+.check-answers-btn {
+   margin:0 auto;
+}
+
+/* --- Button Styling for Question and Answers Component --- */
+
+.check-answers-btn,.play-again-btn {
+   width:120px;
+   height:35px;
+   font-size:0.64rem;
+   font-weight:600;
+   display:block;
+   text-align:center;
+}
+
+/* --- Answers Component --- */
+
+.correct-answer,.selected-answer,.incorrect-answer {
+   border-radius:7.9px;
+   border:none;
+}
+
+.correct-answer {
+   background-color:#94d7a2;
+}
+
+.selected-answer {
+   background:#d6dbf5;
+}
+
+.incorrect-answer {
+   background:#f8bcbc;
+   opacity:0.5;
+}
+
+.score-container {
+   flex-direction:row;
+   justify-content:center;
+   margin-top:27px;
+}
+
+.score-message {
+   font-size:0.8rem;
+   font-weight:700;
+   text-align:center;
+}
+
+.play-again-btn {
+   margin-left:3em;
+   margin-top:0;
+}
+
+
+
+
